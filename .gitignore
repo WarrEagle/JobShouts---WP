@@ -26,15 +26,15 @@ wp-content/*
 # plugins. JRplus adds feeds and employer dashboard features.
 
 wp-content/plugins/*
-!wp-content/plugins/jrplus/
-!wp-content/plugins/glassdoor/
-!wp-content/plugins/fxtender-pro-jobroller/ 
+wp-content/plugins/jrplus/
+wp-content/plugins/glassdoor/
+wp-content/plugins/fxtender-pro-jobroller/ 
 
 
 # Ignore everything in the "themes" directory, except the themes you
 # specify (see the commented-out example for a hint on how to do this.)
 wp-content/themes/*
-!wp-content/themes/jobroller
+wp-content/themes/jobroller
 
 wp-config.php
 wp-content/uploads/
